@@ -1,0 +1,67 @@
+body{
+margin: 0px;
+    background-color:#ffffff;
+    height: 625px;
+    border: #00FFFF 10px solid;
+}
+form{
+   display: flex;
+   background-image: linear-gradient(to right , #D7E1EC,#F5E3E6,#D9E4F5,#F5E3E6,#D7E1EC);
+   height: 150px;
+   width: 100%;
+   border: aqua 1px solid;
+   border-radius: 20px;
+   flex-direction: column;
+   align-items: center;
+}
+label{
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: red;
+    font-size: large;
+}
+#message-input{
+    width: 200px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: aqua;
+    color: red;
+    text-align: center;
+}
+hr{
+    width: 200px;
+    background-color: aqua;
+    height: 1px;
+    border: none;
+}
+button{
+  border: none;
+  border-radius: 2px;
+  margin-top: 15px;
+  width: 110px;
+  height: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: yellow;
+  color: lime;
+}
+h1{
+    color: aqua;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+}
+#link-input{
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 100px;
+    margin-top: 10px;
+    background-color: aqua;
+    color: red;
+    text-align: center;  
+    text-decoration: underline;
+}
